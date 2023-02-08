@@ -27,7 +27,7 @@ export default function Main() {
     <div className='w-full h-[550px] text-white relative' >
         <div className='w-full h-full'>
             <div className='absolute w-full h-[550px] bg-gradient-to-r from-black'></div>
-            <img className='w-full h-full object-fit' src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`} alt={movie?.title}/>
+            <img className='w-full h-full object-fit ' src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`} alt={movie?.title}/>
         
        <div className='absolute w-full top-[40%] p-4 md:p-8'>
         <h1 className='text-3xl md:text-5xl font-bold'>{movie?.title}</h1>

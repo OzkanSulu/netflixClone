@@ -10,7 +10,7 @@ export default function Movie({item,id}) {
    
   >
     <img
-      className="w-full h-auto block"
+      className="w-full h-auto block "
       src={`https://image.tmdb.org/t/p/w500/${item?.backdrop_path}`}
       alt={item?.title}
     />
