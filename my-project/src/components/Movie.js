@@ -6,7 +6,7 @@ export default function Movie({item,id}) {
 
   return (
     <div key={id}
-    className="w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px inline-block cursor-pointer] relative cursor-pointer"
+    className="w-[160px] sm:w-[200px] md:w-[240px] lg:w-[280px inline-block cursor-pointer] mx-3 relative cursor-pointer"
    
   >
     <img

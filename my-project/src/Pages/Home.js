@@ -9,10 +9,10 @@ function Home() {
     <div>
       <Navbar />
       <Main />
-      <Row title="Upcoming" fetchURL={request.requestUpcoming}/>
-      <Row title="Top Rated" fetchURL={request.requestTopRated} />
-      <Row title="Popular" fetchURL={request.requestPopular}/>
-      <Row title="Trending" fetchURL={request.requestTrending}/>
+      <Row rId="1" title="Upcoming" fetchURL={request.requestUpcoming}/>
+      <Row rId="2" title="Top Rated" fetchURL={request.requestTopRated} />
+      <Row rId="3" title="Popular" fetchURL={request.requestPopular}/>
+      <Row rId="4" title="Trending" fetchURL={request.requestTrending}/>
       
   
     </div>
